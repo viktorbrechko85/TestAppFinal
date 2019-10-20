@@ -199,6 +199,18 @@ const styles = StyleSheet.create({
     paddingRight: 12,
     textAlign: 'right',
   },
+  list:{
+    paddingVertical: 4,
+    margin: 5,
+    backgroundColor: "#fff"
+   },
+   rowContainer: {
+    flexDirection: 'row',
+    padding: 10
+  },
+  textContainer: {
+    flex: 1
+  },
 });
 
 export default App;
